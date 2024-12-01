@@ -1,0 +1,83 @@
+Consulta de libros. co ndejango graphQL GRAPHENE
+-creo una carpeta de entorno virutal
+python -m venv venv
+-activo el entorno virtual
+PS C:\Users\Dora\Documents\DjangoGraphQL Tutorial\Django_Graphene> .\venv\Scripts\activate
+pip install django
+
+-creo lo archivo nucleo
+djando-admin startproject core .
+
+-creo la aplicacion
+> python manage.py startapp books
+(venv) PS C:\Users\Dora\Documents\DjangoGraphQL Tutorial\Django_Graphene> 
+python manage.py makemigrations     
+
+-migraciones
+
+-adherir de panel de admnistrador
+
+crear un super usario
+
+correr el server
+
+lsito graphql
+
+-
+adherir graphene
+
+schema
+
+crea un path
+
+graphql expecie de postman
+(interfaz para hacer consulta y ingresar datos)
+
+-consulta apartir del query
+
+
+-
+modelo apra consultar
+
+-
+agrear en query
+
+-crear def resolve
+
+
+otra consultao
+
+otro resolve
+
+
+3 pasos
+django setup
+graphene setup
+query books
+
+
+-mutacion
+devol instancia
+funcion
+
+se ejecuta
+def mutate(self,ifno...
+reutrno....
+
+devuelve book= graphene field book type
+
+espera recibir
+argumento de tipo
+title 
+descriptcion
+
+
+-agregarla al schema
+
+
+
+mutation create book
+mutation delete book
+mutation actualizacion book
+
+
